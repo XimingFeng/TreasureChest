@@ -1,0 +1,7 @@
+[client]
+host = localhost
+port = 3307
+database = treasurechest
+user = TreasureChestUser
+password = Welcome1
+default-character-set = utf8

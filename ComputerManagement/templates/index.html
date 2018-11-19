@@ -1,0 +1,14 @@
+
+<table>
+
+</table>
+{% if computer_list %}
+   {% for computer in computer_list %}
+        <tr>
+            <td> {{computer.computer_name}} </td>
+        </tr>
+   {% endfor %}
+{% else %}
+
+   <p>No computer available</p>
+{% endif %}
